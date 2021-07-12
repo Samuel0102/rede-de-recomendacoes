@@ -1,4 +1,4 @@
-### Rede de Recomendações
+# Rede de Recomendações
 Projeto de um Front-End com uma rede de recomendações.
 
 # Sobre o projeto
