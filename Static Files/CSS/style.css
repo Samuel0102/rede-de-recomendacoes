@@ -1,0 +1,116 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-= */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+
+
+/* Variables */
+:root{
+    --violet: hsl(263, 55%, 52%);
+    --grayish-blue: hsl(217, 19%, 35%);
+    --grayish-black: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --font-family: 'Barlow Semi Condensed', sans-serif;
+    --principal-weight: 600;
+    --second-weight: 500;
+    --shadow-lgray:hsl(0, 0%, 81%);
+    --shadow-gblue: hsl(210, 46%, 95%);
+}
+
+/* Variables */
+
+
+/* Layout Definition */
+#recomendations-gallery{
+    width: 95%;
+    margin: 20px auto;
+    display: grid;
+    gap: 30px;
+}
+
+/* Layout Definition */
+
+
+/* Card Estilization */
+
+
+.recomendation-card{
+    color: var(--white);
+    font-size: 13px;
+    font-family: var(--font-family);
+    padding: 30px 30px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: var(--white);
+    box-shadow: 20px 20px 30px lightgray;
+}
+    #card-1{
+        grid-area: card1;
+        background: url(../IMG/bg-pattern-quotation.svg) no-repeat 80% 0;
+        background-color: var(--violet);
+    }
+
+    #card-2{
+        grid-area: card2;
+        background-color: var(--grayish-blue);
+    }
+
+    #card-3{
+        grid-area: card3;
+        color: black;
+    }
+
+    #card-4{
+        grid-area: card4;
+        color: black;
+    }
+
+    #card-5{
+        grid-area: card5;
+        background-color: var(--grayish-black);
+    }
+
+
+.person-area{
+    display: flex;
+    align-items: center;
+    
+}
+    .person-icon{
+        border-radius: 50%;
+        width: 45px;
+    }
+    .person-name{
+        font-weight: var(--principal-weight);
+        display: block;
+    }
+
+    .person-category{
+        font-weight: var(--second-weight);
+        opacity: 50%;
+    }
+
+    .infos{
+        margin-left: 20px;
+    }
+
+.principal-paraph{
+    font-size: 20px;
+    font-weight: var(--principal-weight);
+    padding: 20px 0;
+}
+
+.review-paraph{
+    font-weight: var(--second-weight);
+    opacity: 70%;
+    line-height: 1.5em;
+}
+
+/* Card Estilization */
