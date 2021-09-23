@@ -20,6 +20,9 @@ O projeto consiste em um Front-End contendo alguns blocos de recomendações, me
 ## Funcionalidades
 * Nenhuma funcionalidade, não possuí back-end operante
 
+## Visual final
+<a href="https://ibb.co/yhkY4Nr"><img src="https://i.ibb.co/wJQwcdf/a.png" alt="a" border="0"></a>
+
 ## Requisitos para manipular código
 * Nenhum específico
 
